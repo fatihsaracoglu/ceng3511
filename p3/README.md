@@ -22,12 +22,12 @@ When the program is executed, parameters that are needed for the steps of the ge
 ## Usage
 
 ```
-$ python3 knapsack-ga.py
+$ python3 knapsack_ga.py
 ```
 
 After executing above command, the program will start to ask the parameters from the user as represented below:  
 
-<img src="https://drive.google.com/uc?export=view&id=1u_pn8aVb1mzzvarW76q71UZ2c4jGE3Qm" alt="demo-of-knapsack-ga" width="80%"/>
+<img src="https://drive.google.com/uc?export=view&id=1yLToP0zKES2ikjFJrT_1WSGDpO8kEohn" alt="demo-of-knapsack-ga" width="80%"/>
   
   
 
