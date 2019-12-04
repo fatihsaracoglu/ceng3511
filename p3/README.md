@@ -27,7 +27,7 @@ $ python3 knapsack_ga.py
 
 After executing above command, the program will start to ask the parameters from the user as represented below:  
 
-<img src="https://drive.google.com/uc?export=view&id=1yLToP0zKES2ikjFJrT_1WSGDpO8kEohn" alt="demo-of-knapsack-ga" width="80%"/>
+<img src="https://drive.google.com/uc?export=view&id=1u3OjjBRQ9f55N68swlKas0Avt8toyvlm" alt="demo-of-knapsack-ga" width="80%"/>
   
   
 
