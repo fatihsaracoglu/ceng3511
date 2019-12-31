@@ -72,10 +72,12 @@ def evaluate_neighbors(k):
 
 if __name__ == "__main__":
 
-    k = int(input("Please enter the k-value: "))
-    while (k < 1 or k >= number_of_instance):
-        print("You entered an invalid number... Try again!")
+    while True:
         k = int(input("Please enter the k-value: "))
+        if ((k > 1 and k < number_of_instance)):
+            break
+        else:
+            print("You entered an invalid number... Try again!")
 
     # Apply threading to evaluate neighbors
     pool = ThreadPool(processes=2)
