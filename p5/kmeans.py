@@ -108,10 +108,12 @@ def find_coordinate_values(dataset):
 
 if "__main__" == __name__:
 
-    k = int(input("Please enter the k-value (1-10): "))
-    while (k < 1 or k > 10):
-        print("You entered an invalid number... Try again!")
+    while True:
         k = int(input("Please enter the k-value (1-10): "))
+        if (k >= 1 and k <= 10):
+            break
+        else:
+            print("You entered an invalid number... Try again!")
 
     f = plt.figure()
 
